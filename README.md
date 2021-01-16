@@ -34,10 +34,10 @@ CoreUI is meant to be the UX game changer. Pure & transparent code is devoid of 
 
 ``` bash
 # clone the repo
-$ git clone https://github.com/coreui/coreui-free-react-admin-template.git my-project
+$ git clone https://github.com/jeremyaza/test-template-admin.git
 
 # go into app's directory
-$ cd my-project
+$ cd coreui-template
 
 # install app's dependencies
 $ npm install
@@ -49,7 +49,7 @@ Copy all your files to your project folder and then,
 
 ``` bash
 # go into app's directory
-$ cd my-project
+$ cd coreui-template
 
 # install app's dependencies
 $ npm install
