@@ -1,0 +1,30 @@
+@import "../../resoruces/styles/mixins.scss";
+
+.logo_hackademy{
+    width: 25%;
+}
+
+.titulo{
+    font-size: 20px;
+    color: $primario;
+    font-weight: $bold;
+}
+
+.color{
+    background-color: $blanco;
+    width: 100%;
+    height: 100%;
+}
+
+.formulario{
+    padding: 0% 30%;
+}
+
+.ingresar{
+    width: 100%;
+    border: none;
+    background-color: $primario;
+    color: white;
+    padding: 6px;
+    border-radius: 5px;
+}

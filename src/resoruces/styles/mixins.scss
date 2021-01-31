@@ -1,0 +1,31 @@
+@import "./variables.scss";
+
+//Responsive mixin
+@mixin breakpoint($media) {
+  @if $media == xs {
+    // Extra small devices (portrait phones, less than 576px)
+    @media (max-width: $screen-xs-min) {
+      @content;
+    }
+  } @else if $media == sm {
+    // Small devices (landscape phones, 576px and up)
+    @media (min-width: $screen-sm-min) and (max-width: $screen-sm-max) {
+      @content;
+    }
+  } @else if $media == md {
+    // Medium devices (tablets, 768px and up)
+    @media (min-width: $screen-md-min) and (max-width: $screen-md-max) {
+      @content;
+    }
+  } @else if $media == lg {
+    // Large devices (desktops, 992px and up)
+    @media (min-width: $screen-lg-min) and (max-width: $screen-lg-max) {
+      @content;
+    }
+  } @else if $media == xl {
+    // Extra large devices (large desktops, 1200px and up)
+    @media (min-width: $screen-xl) {
+      @content;
+    }
+  }
+}
