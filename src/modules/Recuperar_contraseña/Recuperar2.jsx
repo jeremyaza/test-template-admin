@@ -1,5 +1,5 @@
 import React from "react";
-import new_password from '../../resoruces/images/new_password.svg';
+import new_password from '../../resources/images/new_password.svg';
 import "./recuperarStyle.scss"
 
 

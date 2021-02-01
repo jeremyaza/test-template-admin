@@ -15,6 +15,7 @@ const TheLayout = React.lazy(() => import("./containers/TheLayout"));
 const Login = React.lazy(() => import("./modules/Login/Login"));
 const Recuperar1 = React.lazy(() => import("./modules/Recuperar_contraseña/Recuperar1"));
 const Recuperar2 = React.lazy(() => import("./modules/Recuperar_contraseña/Recuperar2"));
+const Home = React.lazy(() => import("./modules/Home/home"));
 const Register = React.lazy(() => import("./views/pages/register/Register"));
 const Page404 = React.lazy(() => import("./views/pages/page404/Page404"));
 const Page500 = React.lazy(() => import("./views/pages/page500/Page500"));
@@ -45,6 +46,12 @@ class App extends Component {
             />
             <Route
               exact
+              path="/home"
+              name="Home"
+              render={(props) => <Home {...props} />}
+            />
+            <Route
+              exact
               path="/register"
               name="Register Page"
               render={(props) => <Register {...props} />}
@@ -62,7 +69,7 @@ class App extends Component {
               render={(props) => <Page500 {...props} />}
             />
             <Route
-              path="/home"
+              path="/"
               name="Home"
               render={(props) => <TheLayout {...props} />}
             />

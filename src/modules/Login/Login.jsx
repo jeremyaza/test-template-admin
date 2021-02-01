@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import logo_hackademy from '../../resoruces/images/hackademy-logo.svg';
+import logo_hackademy from '../../resources/images/hackademy-logo.svg';
 import "./loginStyle.scss"
 
 

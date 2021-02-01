@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import send_email from '../../resoruces/images/send_mail.svg';
+import send_email from '../../resources/images/send_mail.svg';
 import "./recuperarStyle.scss"
 
 
