@@ -6,7 +6,7 @@ import "./loginStyle.scss"
 
 function Login() {
     return (
-      <div className="color">
+      <div className="color screen">
         <div className="row justify-content-center">
           <div className="col-lg-7 col-md-8 col-sm-11 col-12 mt-5 text-center">
             <div>
