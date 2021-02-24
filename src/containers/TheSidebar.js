@@ -33,13 +33,6 @@ const TheSidebar = () => {
           title="Hackademy - administración"
           style={{ marginLeft: "-70px" }}
         />
-        <img
-          className="c-sidebar-brand-minimized"
-          src="https://www.hackademy.mx/assets/images/logo_white.svg"
-          width="30px"
-          alt="Hackademy - administración"
-          title="Hackademy - administración"
-        />
       </CSidebarBrand>
       <CSidebarNav>
         <CCreateElement

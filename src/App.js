@@ -16,6 +16,10 @@ const Login = React.lazy(() => import("./modules/Login/Login"));
 const Recuperar1 = React.lazy(() => import("./modules/Recuperar_contraseña/Recuperar1"));
 const Recuperar2 = React.lazy(() => import("./modules/Recuperar_contraseña/Recuperar2"));
 const Home = React.lazy(() => import("./modules/Home/home"));
+const Prepadawan = React.lazy(() => import("./modules/Prepadawan/Prepadawan"));
+const PrepadawanDetalle = React.lazy(() => import("./modules/Prepadawan/PrepadawanDetalle"));
+const Batch = React.lazy(() => import("./modules/Batch/Batch"));
+
 const Register = React.lazy(() => import("./views/pages/register/Register"));
 const Page404 = React.lazy(() => import("./views/pages/page404/Page404"));
 const Page500 = React.lazy(() => import("./views/pages/page500/Page500"));
@@ -49,6 +53,24 @@ class App extends Component {
               path="/home"
               name="Home"
               render={(props) => <Home {...props} />}
+            />
+            <Route
+              exact
+              path="/prepadawans"
+              name="Prepadawan"
+              render={(props) => <Prepadawan {...props} />}
+            />
+            <Route
+              exact
+              path="/prepadawandetalle"
+              name="PrepadawanDetalle"
+              render={(props) => <PrepadawanDetalle {...props} />}
+            />
+            <Route
+              exact
+              path="/batch"
+              name="Batch"
+              render={(props) => <Batch {...props} />}
             />
             <Route
               exact

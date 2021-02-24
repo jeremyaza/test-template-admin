@@ -1,0 +1,30 @@
+@import "../../resources/styles/mixins.scss";
+
+.headt{
+    background-color: $primario;
+    color: white;
+}
+
+
+.batch-selector{
+    width: fit-content;
+}
+
+
+.butPrepadawan{
+    background-color: $secundario;
+    border: none;
+    color: black;
+}
+
+.butPrepadawan:hover{
+    background-color: $secundario-bajo;
+    border: none;
+    color: black;
+}
+
+.butPrepadawan:active{
+    background-color: $primario;
+    border: none;
+    color: black;
+}

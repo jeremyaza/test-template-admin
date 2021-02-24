@@ -1,5 +1,13 @@
 @import "../../resources/styles/mixins.scss";
 
-.col{
+.colside{
     background-color: $primario;
+}
+.opt{
+    color: white;
+}
+.opt:hover {
+    background-color: $secundario;
+    font-weight: bold;
+    color: $primario;
 }
