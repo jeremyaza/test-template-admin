@@ -19,6 +19,18 @@ const Home = React.lazy(() => import("./modules/Home/home"));
 const Prepadawan = React.lazy(() => import("./modules/Prepadawan/Prepadawan"));
 const PrepadawanDetalle = React.lazy(() => import("./modules/Prepadawan/PrepadawanDetalle"));
 const Batch = React.lazy(() => import("./modules/Batch/Batch"));
+const Entrevistas = React.lazy(() => import("./modules/Entrevistas/Entrevistas"));
+const Club = React.lazy(() => import("./modules/Club/Club"));
+const No_admitidos = React.lazy(() => import("./modules/No_admitidos/NoAdmitidos"));
+const Ejercicios = React.lazy(() => import("./modules/Ejercicios/Ejercicios"));
+const Genereaciones = React.lazy(() => import("./modules/Generaciones/Generaciones"));
+const Proyectos = React.lazy(() => import("./modules/Proyectos/Proyectos"));
+const Programas = React.lazy(() => import("./modules/Programas/Programas"));
+const Mentores = React.lazy(() => import("./modules/Mentores/Mentores"));
+const Aprendizaje = React.lazy(() => import("./modules/Aprendizaje/Aprendizaje"));
+
+
+
 
 const Register = React.lazy(() => import("./views/pages/register/Register"));
 const Page404 = React.lazy(() => import("./views/pages/page404/Page404"));
@@ -72,6 +84,64 @@ class App extends Component {
               name="Batch"
               render={(props) => <Batch {...props} />}
             />
+            <Route
+              exact
+              path="/entrevistas"
+              name="Etrevistas"
+              render={(props) => <Entrevistas {...props} />}
+            />
+            <Route
+              exact
+              path="/club"
+              name="Club"
+              render={(props) => <Club {...props} />}
+            />
+            <Route
+              exact
+              path="/noadmitidos"
+              name="No_admitidos"
+              render={(props) => <No_admitidos {...props} />}
+            />
+            <Route
+              exact
+              path="/ejercicios"
+              name="Ejercicios"
+              render={(props) => <Ejercicios {...props} />}
+            />
+            <Route
+              exact
+              path="/generaciones"
+              name="Genereaciones"
+              render={(props) => <Genereaciones {...props} />}
+            />
+            <Route
+              exact
+              path="/proyectos"
+              name="Proyectos"
+              render={(props) => <Proyectos {...props} />}
+            />
+            <Route
+              exact
+              path="/programas"
+              name="Programas"
+              render={(props) => <Programas {...props} />}
+            />
+            <Route
+              exact
+              path="/mentores"
+              name="Mentores"
+              render={(props) => <Mentores {...props} />}
+            />
+            <Route
+              exact
+              path="/aprendizaje"
+              name="Aprendizaje"
+              render={(props) => <Aprendizaje {...props} />}
+            />
+            
+
+
+
             <Route
               exact
               path="/register"

@@ -1,0 +1,24 @@
+@import "../../resources/styles/mixins.scss";
+
+.headt{
+    background-color: $primario;
+    color: white;
+}
+
+.nuevoBatch{
+    background-color: $secundario;
+    border: none;
+    color: black;
+}
+
+.nuevoBatch:hover{
+    background-color: $secundario-bajo;
+    border: none;
+    color: black;
+}
+
+.nuevoBatch:active{
+    background-color: $primario;
+    border: none;
+    color: black;
+}

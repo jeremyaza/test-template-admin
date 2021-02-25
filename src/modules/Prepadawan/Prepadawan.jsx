@@ -8,6 +8,7 @@ import { faAddressCard } from '@fortawesome/free-solid-svg-icons';
 const Prepadawan = () => {
   return (
     <div className="d-flex flex-row-reverse">
+      <SideBar/>  
       <div className="col-8 col-sm-10 p-4">
         <h1>Prepadawans</h1>
         <select class="form-select batch-selector mt-4 mb-4" aria-label="Default select example">
@@ -40,7 +41,7 @@ const Prepadawan = () => {
         </table>
         
       </div>
-      <SideBar/>          
+              
    </div>
     );
 };

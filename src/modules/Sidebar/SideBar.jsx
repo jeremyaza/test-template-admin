@@ -30,7 +30,7 @@ function SideBar() {
         <Link to="/batch" className="w-100 opt text-decoration-none">
             <span className="ml-5 fs-6">Batch</span>                         
         </Link>
-        <Link to="/ejercicio" className="w-100 opt text-decoration-none">
+        <Link to="/ejercicios" className="w-100 opt text-decoration-none">
             <span className="ml-5 fs-6">Ejercicios</span>                         
         </Link>
         <Link to="/generaciones" className="w-100 opt text-decoration-none">
@@ -49,27 +49,6 @@ function SideBar() {
             <span className="ml-5 fs-6">Aprendizaje</span>                         
         </Link>           
     </div>
-/*
-         <div className="nav">
-            
-            <div className="side">
-                <a href="/#/home"><p className="bold">INICIO</p></a>
-                <p className="bold"> SOLICITUDES</p>
-                <p className="option">Prepadawans</p>
-                <p className="option">Entrevistas</p>
-                <p className="option">Club</p>
-                <p className="option">No admitidos</p>
-                <p className="bold">CATÁLOGO</p>
-                <p className="option">Batch</p>
-                <p className="option">Ejercicios</p>
-                <p className="option">Generaciones</p>
-                <p className="option">Proyectos</p>
-                <p className="option">Programas</p>
-                <p className="option">Mentores</p>
-                <p className="option">Aprendizaje</p>
-            </div>
-         </div>
-         */
     );
   }
   
