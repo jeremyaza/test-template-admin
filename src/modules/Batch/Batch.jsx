@@ -11,7 +11,7 @@ const Batch = () => {
             <SideBar/>  
             <div className="col-8 col-sm-10 p-4">
                 <h1>Batch</h1>
-                <Link type="button" class="btn nuevoBatch mt-4 mb-4">Nuevo batch</Link>
+                <Link type="button" to="/nuevobatch" class="btn nuevoBatch mt-4 mb-4">Nuevo Batch</Link>
                 <table className="table table-bordered">
                     <thead class="headt">
                         <tr>
@@ -29,7 +29,7 @@ const Batch = () => {
                             <td className="text-center align-middle">1/1/21</td>
                             <td className="text-center align-middle">15/1/21</td>
                             <td className="text-center align-middle">Activo</td>
-                            <td className="text-center align-middle"><Link className="btn btn-primary"><FontAwesomeIcon icon={faEdit} size="lg" /></Link></td>
+                            <td className="text-center align-middle"><Link className="btn btn-primary" to="/editarbatch"><FontAwesomeIcon icon={faEdit} size="lg" /></Link></td>
                             <td className="text-center align-middle"><Link className="btn btn-primary"><FontAwesomeIcon icon={faTrashAlt} size="lg" /></Link></td>
                         </tr>
                     </tbody>

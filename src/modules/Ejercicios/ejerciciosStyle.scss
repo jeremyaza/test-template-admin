@@ -5,24 +5,20 @@
     color: white;
 }
 
-.nuevoBatch{
+.nuevoEjercicio{
     background-color: $secundario;
     border: none;
     color: black;
 }
 
-.nuevoBatch:hover{
+.nuevoEjercicio:hover{
     background-color: $secundario-bajo;
     border: none;
     color: black;
 }
 
-.nuevoBatch:active{
+.nuevoEjercicio:active{
     background-color: $primario;
     border: none;
     color: black;
-}
-
-.checkbox{
-    transform: scale(1.6);
 }

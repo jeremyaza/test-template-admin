@@ -21,7 +21,7 @@ function Login() {
               <br/>          
               <input type="password" name="password" class="form-control" placeholder="Contraseña" required/>
               <br/> 
-              <button type="submit" className="ingresar">Ingresar</button>              
+              <Link type="submit" className="ingresar" to="/home">Ingresar</Link>              
             </form>
             <br/>
             <Link to="/recuperar">¿Olvidaste tu contraseña?</Link>
