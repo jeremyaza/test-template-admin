@@ -19,7 +19,7 @@ function Recuperar1() {
             <form className="formulario">
               <input type="email" name="email" class="form-control" placeholder="Correo" required/>
               <br/>  
-              <button type="submit" className="cambiar">Cambiar contraseña</button>              
+              <Link type="submit" className="cambiar" to="/nuevacontraseña">Cambiar contraseña</Link>              
             </form>
             <br/>
             <Link to="/">Iniciar sesión</Link>

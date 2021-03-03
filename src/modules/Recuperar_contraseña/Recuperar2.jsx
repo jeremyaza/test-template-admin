@@ -1,6 +1,7 @@
 import React from "react";
 import new_password from '../../resources/images/new_password.svg';
 import "./recuperarStyle.scss"
+import { Link } from "react-router-dom";
 
 
 function Recuperar2() {
@@ -20,7 +21,7 @@ function Recuperar2() {
               <br/>
               <input type="email" name="email" class="form-control" placeholder="Repetir nueva contraseña" required/>
               <br/>  
-              <button type="submit" className="cambiar">Cambiar mi contraseña</button>              
+              <Link type="submit" className="cambiar" to="/nuevacontraseña">Cambiar mi contraseña</Link>              
             </form>
             <br/>
           </div>
