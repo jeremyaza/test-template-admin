@@ -20,8 +20,8 @@ function Login() {
               <input type="email" name="email" class="form-control" placeholder="Correo" required/> 
               <br/>          
               <input type="password" name="password" class="form-control" placeholder="Contraseña" required/>
-              <br/> 
-              <Link type="submit" className="ingresar" to="/home">Ingresar</Link>              
+              <br/>  
+              <Link type="submit" className="ingresar" to="/home">Ingresar</Link>           
             </form>
             <br/>
             <Link to="/recuperar">¿Olvidaste tu contraseña?</Link>
