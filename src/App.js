@@ -8,9 +8,6 @@ const loading = (
   </div>
 );
 
-// Containers
-const TheLayout = React.lazy(() => import("./containers/TheLayout"));
-
 // Pages
 const Login = React.lazy(() => import("./modules/Login/Login"));
 const Recuperar1 = React.lazy(() => import("./modules/Recuperar_contraseña/Recuperar1"));
@@ -36,13 +33,6 @@ const EditarProyecto = React.lazy(() => import("./modules/Proyectos/EditarProyec
 const Programas = React.lazy(() => import("./modules/Programas/Programas"));
 const Mentores = React.lazy(() => import("./modules/Mentores/Mentores"));
 const Aprendizaje = React.lazy(() => import("./modules/Aprendizaje/Aprendizaje"));
-
-
-
-
-const Register = React.lazy(() => import("./views/pages/register/Register"));
-const Page404 = React.lazy(() => import("./views/pages/page404/Page404"));
-const Page500 = React.lazy(() => import("./views/pages/page500/Page500"));
 
 class App extends Component {
   render() {
@@ -193,33 +183,6 @@ class App extends Component {
               path="/aprendizaje"
               name="Aprendizaje"
               render={(props) => <Aprendizaje {...props} />}
-            />
-            
-
-
-
-            <Route
-              exact
-              path="/register"
-              name="Register Page"
-              render={(props) => <Register {...props} />}
-            />
-            <Route
-              exact
-              path="/404"
-              name="Page 404"
-              render={(props) => <Page404 {...props} />}
-            />
-            <Route
-              exact
-              path="/500"
-              name="Page 500"
-              render={(props) => <Page500 {...props} />}
-            />
-            <Route
-              path="/"
-              name="Home"
-              render={(props) => <TheLayout {...props} />}
             />
           </Switch>
         </React.Suspense>
